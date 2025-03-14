@@ -2,7 +2,15 @@
     --color-base: #333333; 
     --color-base-figure-background: rgba(213, 213, 222, 0.931);
     --color-base-figure-border: #ccc;
-    --font-base-paragraph: "Source Code Pro", monospace;
+    --font-base: "Source Code Pro", monospace;
+    --font-base-primary: "UnifrakturMaguntia", cursive;
+    --font-base-secondary: VT323, monospace;
+    --font-base-figcaption: "Jacquard 12", system-ui;
+    
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
