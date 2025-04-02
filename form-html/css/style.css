@@ -21,14 +21,23 @@ fieldset {
 
 fieldset legend {
     font-weight: 900;
+    margin-top: 10px;
 }
 
 fieldset input {
     width: 100%;
 }
 
-button {
+button#cancel {
     width: 300px;
     margin-left: 10px;
-    float: left;
+    background: rgb(227, 122, 122);
+}
+
+button#enviar {
+    width: 300px;
+    margin-top: -20px;
+    margin-left: 10px;
+    float: right;
+    background: rgb(100, 214, 89);
 }
