@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    align-items: center;
+}
+
+.card {
+    background-color: rgb(231, 229, 229);
+    padding: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    width: 200px;
+}
+
+.card h2 {
+    font-size: 14pt;
+}
+
+.card h1 {
+    color: rgb(38, 96, 125);
+    display: inline;
+}
+
+.card span {
+    color: rgb(38, 96, 125);
+}
+
+.card h3 {
+    font-size: 12pt;
+    text-align: left;
+}
