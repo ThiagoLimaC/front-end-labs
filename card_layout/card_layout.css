@@ -1,8 +1,14 @@
 body {
+    margin: 0 auto;
+}
+
+#container {
+    width: 100vw;
     display: flex;
     justify-content: center;
     gap: 5%;
     align-items: center;
+    margin-top: 10%;
 }
 
 .card {
@@ -10,7 +16,7 @@ body {
     padding: 3%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    width: 200px;
+    height: 260px;
 }
 
 .card h2 {
@@ -20,13 +26,17 @@ body {
 .card h1 {
     color: rgb(38, 96, 125);
     display: inline;
+    margin-bottom: 10%;
 }
 
 .card span {
     color: rgb(38, 96, 125);
 }
 
-.card h3 {
-    font-size: 12pt;
+.card ul.checkList {
+    font-size: 10pt;
     text-align: left;
+    list-style: none;
+    text-align: left;
+    padding: 0;
 }
