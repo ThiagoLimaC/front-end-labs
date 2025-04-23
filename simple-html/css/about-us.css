@@ -20,7 +20,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 940px;
-    background-color: honeydew;
+    background-color: rgb(255, 255, 255);
 }
 
 h1 {
@@ -80,4 +80,101 @@ footer img {
 #familia-pelho {
     float: right;
     margin: 0 0 10px 10px;
+}
+
+/* @media (max-width: 480px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    header img {
+        height: 50px;
+        margin: 30px;
+        padding-left: 30px;
+    }
+    header h1 {
+        font-size: 20px;
+        padding-left: 50px;
+    }
+    main p {
+        font-size: 11px;
+        width: 250px;
+        margin-top: 20px;
+        margin-left: -5px;
+    }
+
+    main figure#centro-distribuicao {
+        width: 200px;
+        height: 200px;
+        margin-left: 20px;
+    }
+
+    main figure#centro-distribuicao figcaption {
+        font-size: 15px;
+    }
+
+    main h2#historia {
+        margin-left: 70px;
+        border: none;
+    }
+    
+    main figure#familia-pelho {
+        width: 200px;
+        height: 200px;
+        float: left;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+
+    main h2#diferenciais {
+        margin-left: 70px;
+        border: none;
+    }
+
+    main ul {
+        font-size: 11px;
+        width: 250px;
+    }
+} */
+
+@media (max-width: 768px) {
+    body {
+        width: auto;
+        margin: 0 20px;
+    }
+
+    h1 {
+         font-size: 1.8em;
+         padding: 8px;
+    }
+
+    h2 {
+        font-size: 1.4em;
+        margin-top: 20px;
+   }
+
+   p {
+        padding: 0 15px;
+        text-indent: 15px;
+        text-align: left;
+        line-height: 1.5;
+   }
+
+   figure {
+        margin: 20px 0;
+        padding: 10px;
+   }
+
+   #centro-distribuicao {
+        width: 100%;
+        max-width: 550px;
+   }
+
+   #familia-pelho {
+        float: none;
+        margin: 20px auto;
+        display: block;
+   }
 }
