@@ -12,3 +12,5 @@ linkExterno.addEventListener('click', (e) => {
             e.preventDefault();
         }
 });
+
+
